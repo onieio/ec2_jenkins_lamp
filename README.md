@@ -7,7 +7,7 @@ This is a Ansible Playbook to deploy a LAMP Stack infrastructure on ubuntu hosts
 ### Ec2
 * ec2
 ### Jenkins
-* Jenkins
+* Github OAuth Jenkins
 ### Stack - 
 * apache2
 * mysql 
