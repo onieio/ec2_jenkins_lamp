@@ -22,15 +22,11 @@ Create an organizaton on github and generate clientID and Client secret
 
 
 ### Setup
-* Add host in /etc/ansible/hosts file. See the given hosts file to add hosts.  
-  cd lamp/
-
-* Run command `sudo ansible-playbook -i hosts lamp-playbook.yml`
+* Run command `sudo ansible-playbook -i hosts lamp.yml`
  
-* Run command `sudo ansible-playbook -i hosts playbook.yml`
-  cd jenkins/
+* Run command `sudo ansible-playbook -i hosts ec2.yml`
 
-* Run command `sudo ansible-playbook -i inventory/jenkins-servers playbook`
+* Run command `sudo ansible-playbook -i "jenkins.domain.com," jenkins-github-Oauth.yml`
 
 
 

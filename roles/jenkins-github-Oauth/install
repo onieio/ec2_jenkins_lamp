@@ -25,9 +25,9 @@ A record at amazon(if you hosted on aws)
 step6:
 git init
 git add .
-git commit -m "working"
+git commit -m "Final"
+git remote add origin https://github.com/onieio/ec2_jenkins_lamp.git
 git push -u origin master
-
 Error:
 Failed to start a listener: winstone.Ajp13ConnectorFactory
 Solution:
